@@ -48,15 +48,14 @@ header {
   text-align: center;
   margin-top: 0;
 }
+
+.current-tempreture {
+  display: flex;
+  justify-content: center;
+}
 .weather-temperature {
-  text-align: center;
   font-size: 45px;
   margin-top: 0;
-}
-
-.temperature-unit {
-  font-size: 20px;
-  position: absolute;
 }
 
 main {
