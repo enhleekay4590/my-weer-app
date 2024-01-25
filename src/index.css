@@ -1,0 +1,17 @@
+body {
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(248, 213, 214) 0%,
+    rgb(243, 242, 229) 90%
+  );
+
+  font-family: "Ubuntu", sans-serif;
+}
+.weather-container {
+  background-color: #d19cf3;
+  max-width: 670px;
+  margin: 40px auto;
+  padding: 25px;
+  box-shadow: 10px 10px 5px 0px rgba(235, 158, 235, 0.75);
+  border-radius: 13px;
+}
