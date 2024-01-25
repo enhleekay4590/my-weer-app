@@ -15,19 +15,28 @@
   <body>
     <div class="weather-container">
       <header>
-        <form>
-          <input type="search" placeholder="Enter a city..." required />
-          <input type="submit" value="search" />
+        <form class="form-info">
+          <input
+            type="search"
+            placeholder="Enter a city..."
+            required
+            class="search-input"
+          />
+          <input type="submit" value="Search" class="submit-button" />
         </form>
       </header>
       <main>
-        <h1>Durban</h1>
-        <div>31°C</div>
-        <div>🌞</div>
-        <p>
-          Thursday 17:43, Sunny
+        <div class="weather-icon">⛅</div>
+
+        <h1 class="weather-temperature">
+          18<span class="temperature-unit">°C</span>
+        </h1>
+        <h2 class="city-name">Cape Town</h2>
+
+        <p class="weather-description">
+          Thursday 17:43, Mostly cloudy
           <br />
-          Humidity: 51%, Wind: 13km/h
+          Humidity: <strong>81%</strong>, Wind: <strong>6km/h</strong>
         </p>
       </main>
       <footer>
