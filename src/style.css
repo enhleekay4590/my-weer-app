@@ -43,10 +43,8 @@ header {
   font-size: 15px;
 }
 
-.weather-icon {
-  font-size: 60px;
+#icon {
   text-align: center;
-  margin-top: 0;
 }
 
 .current-tempreture {
